@@ -1,0 +1,125 @@
+body {
+	background-color: white;
+	font-family: 'Montserrat';
+	margin: 0 auto;
+	/* max-width: 50em; */
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation{
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 1px 20px;
+    margin: 0;
+}
+
+.navigation a:last-child {
+    padding-right: 0px;
+}
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.navigation ul a li {
+    position: relative;
+    display: inline-block;
+}
+
+.body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f1f1;
+    color: #101010;
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.navigation:hover .dropdown-content {
+    display: block;
+    margin-top: 10pt;
+    border-radius: 10pt;
+    max-width: 30pt;
+}
+
+
+.img_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.img_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.img_dropdown:hover .img_dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.courses{
+    background-image: url("images/pexels-wendy-van-zyl-1112048.jpg");
+    background-size: cover;
+    color: white;
+    padding: 10pt;
+    border-radius: 10pt;
+}
+.courses li{
+    padding: 2pt;
+}
+
